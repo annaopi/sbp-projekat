@@ -53,6 +53,7 @@
 
 Логичка шема би се састојала од следећих колекција:
 1. route_events:
+```
 │
 ├── event_id
 ├── shipment_id
@@ -89,8 +90,9 @@
 └── праћење
     ├── anomaly_flag
     └── alert_sent
-   
+```
 2. shipments (испоруке):
+```
 │
 ├── shipment_id
 │
@@ -129,3 +131,4 @@
     ├── weather_severity
     ├── port_congestion
     └── temperature_c
+```
