@@ -4,7 +4,21 @@
 (Поповић Филип, IN 30/2022; Oпанчина Ана, IN 40/2022)
 
 ## Опис базе података
-Тема пројекта је анализа паметне логистике глобалног увоза и извоза али и повезаних рута. Подаци су преузети са скупа података преузетих са Kaggle-a ('Smart Shipment Logistics & Route Event Monitoring'), који уоквирно садржи податке о 5.000.000 догађаја током рута али и око 5.000.000 поједаничних испорука.
+Тема пројекта је анализа паметне логистике глобалног увоза и извоза али и повезаних рута. Подаци су преузети са скупа података преузетих са Kaggle-a ('Smart Shipment Logistics & Route Event Monitoring'). Сам скуп података садржи две датотеке: route_events.csv који описује појединачне догађаје рута и shipments_master.csv који описује пошиљке.
+
+У колоне route_events.csv спадају (значења су углавном очевидна на основу њихових назива на енглеском): 
+- event_id (EVT-xxxxx), shipment_id (SHP-xxxxx), event_type (стринг, описује врсту догађаја на рути), event_timestamp (у формату: yyyy-mm-dd hh:mm:ss),
+- location_name, latitude (координате од -90 до 90), longitude (координате од -180 до 180), speed_knots (брзина у чворовима, 1 чвор је 1.852 km/h), heading_deg (смер кретања изражен у степенима), temperature_c, humidity_pct, shock_g (вредност сензора за шокове и вибрације)
+- delay_added_hours, risk_score_delta (промена резултата ризика), port_wait_hours (сати чекања на луци), fuel_consumed_lt, co2_kg (...емитовано угљен-диоксида у килограмима), sensor_type, signal_quality, anomaly_flag (true/false), alert_sent (true/false)
+
+У колоне shipments_master.csv спадају:
+- shipment_id (исти као на route_events.csv), carrier (назив курира/компаније)
+- origin_port, destination_port, transport_mode (начин превоза), status (мисли се на статус испоруке: Delivered, Delayed, On_Schedule, etc), goods_category (врста робе), currency,
+- created_date, eta_date, transit_hours, distance_km, weight_kg, volume_m3
+- value_usd, freight_cost_usd, num_containers
+- num_stops, delay_hours, risk_score, weather_severity (озбиљност временских услова), port_congestion, temperature_c, priority_level, insurance_required (true/false)
+
+Сваки од фајлова има по 5.000.001 запис (заглавље са именима колона + 5.000.000 записа података). У оба две податке појављује се shipment_id с обзиром да једна пошиљка (која је управо овим идентификована) се састоји са једном или више догађаја на рути, а један такав догађај припада искључиво једној пошиљци (релација 1:N).
 
 # Упити
 ## Логистички менаџер
