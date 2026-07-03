@@ -1,0 +1,128 @@
+{
+  _id: 'SHP-101688579',
+  carrier: 'Evergreen',
+  transport_mode: 'air',
+  delay_hours: 9.9,
+  transitions: [
+    {
+      from: 'reroute',
+      to: 'reroute'
+    },
+    {
+      from: 'reroute',
+      to: 'inspection'
+    }
+  ]
+}
+{
+  _id: 'SHP-102830955',
+  carrier: 'HMM',
+  transport_mode: 'sea',
+  delay_hours: 54.9,
+  transitions: [
+    {
+      from: 'customs_check',
+      to: 'inspection'
+    }
+  ]
+}
+{
+  _id: 'SHP-100990080',
+  carrier: 'FedEx',
+  transport_mode: 'sea',
+  delay_hours: 93,
+  transitions: [
+    {
+      from: 'weather_hold',
+      to: 'customs_check'
+    }
+  ]
+}
+{
+  _id: 'SHP-104982606',
+  carrier: 'MSC',
+  transport_mode: 'air',
+  delay_hours: 6.2,
+  transitions: [
+    {
+      from: 'mechanical_stop',
+      to: 'mechanical_stop'
+    }
+  ]
+}
+{
+  _id: 'SHP-103664545',
+  carrier: 'ZIM',
+  transport_mode: 'road',
+  delay_hours: 18.1,
+  transitions: [
+    {
+      from: 'weather_hold',
+      to: 'reroute'
+    },
+    {
+      from: 'reroute',
+      to: 'weather_hold'
+    }
+  ]
+}
+{
+  _id: 'SHP-104999807',
+  carrier: 'FedEx',
+  transport_mode: 'air',
+  delay_hours: 91,
+  transitions: [
+    {
+      from: 'mechanical_stop',
+      to: 'delayed_notification'
+    }
+  ]
+}
+{
+  _id: 'SHP-100010684',
+  carrier: 'CMA_CGM',
+  transport_mode: 'sea',
+  delay_hours: 78.6,
+  transitions: [
+    {
+      from: 'inspection',
+      to: 'inspection'
+    }
+  ]
+}
+{
+  _id: 'SHP-101548471',
+  carrier: 'HMM',
+  transport_mode: 'rail',
+  delay_hours: 64.1,
+  transitions: [
+    {
+      from: 'weather_hold',
+      to: 'customs_check'
+    }
+  ]
+}
+{
+  _id: 'SHP-102148627',
+  carrier: 'HMM',
+  transport_mode: 'sea',
+  delay_hours: 62.3,
+  transitions: [
+    {
+      from: 'customs_check',
+      to: 'inspection'
+    }
+  ]
+}
+{
+  _id: 'SHP-102148627',
+  carrier: 'HMM',
+  transport_mode: 'sea',
+  delay_hours: 62.3,
+  transitions: [
+    {
+      from: 'customs_check',
+      to: 'inspection'
+    }
+  ]
+}

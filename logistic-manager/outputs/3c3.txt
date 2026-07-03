@@ -1,0 +1,100 @@
+{
+  _id: 'Sydney → Barcelona',
+  shipment_count: 7877,
+  total_co2: 936676.64,
+  average_co2: 118.91286530404977,
+  total_value: 3301785690.98,
+  total_volume: 294321.54,
+  co2_per_usd: 0.0002836878972971701,
+  co2_per_m3: 3.182494356342387
+}
+{
+  _id: 'Felixstowe → Mumbai',
+  shipment_count: 8056,
+  total_co2: 960404.76,
+  average_co2: 119.21608242303873,
+  total_value: 3597245541.25,
+  total_volume: 305294.1,
+  co2_per_usd: 0.00026698337630471307,
+  co2_per_m3: 3.145834655828593
+}
+{
+  _id: 'Port_Klang → Felixstowe',
+  shipment_count: 7959,
+  total_co2: 959539.75,
+  average_co2: 120.56034049503707,
+  total_value: 3376797712.83,
+  total_volume: 308849.23,
+  co2_per_usd: 0.0002841567163926549,
+  co2_per_m3: 3.1068225425072296
+}
+{
+  _id: 'Antwerp → Piraeus',
+  shipment_count: 7908,
+  total_co2: 955318.8,
+  average_co2: 120.8040971168437,
+  total_value: 3308385481.73,
+  total_volume: 309164.34,
+  co2_per_usd: 0.0002887567985277371,
+  co2_per_m3: 3.090003200239717
+}
+{
+  _id: 'Tanjung_Pelepas → Los_Angeles',
+  shipment_count: 8083,
+  total_co2: 969052.76,
+  average_co2: 119.88775949523692,
+  total_value: 3157663772.83,
+  total_volume: 314701.79,
+  co2_per_usd: 0.00030688915277749906,
+  co2_per_m3: 3.0792731112206257
+}
+{
+  _id: 'Melbourne → Antwerp',
+  shipment_count: 7929,
+  total_co2: 962814.99,
+  average_co2: 121.42956110480515,
+  total_value: 3343223920.72,
+  total_volume: 313238.83,
+  co2_per_usd: 0.00028798997998095424,
+  co2_per_m3: 3.0737408577346557
+}
+{
+  _id: 'Ningbo → Le_Havre',
+  shipment_count: 8026,
+  total_co2: 963281.37,
+  average_co2: 120.02010590580613,
+  total_value: 3112646523.39,
+  total_volume: 313815.76,
+  co2_per_usd: 0.0003094734216562712,
+  co2_per_m3: 3.069576142383671
+}
+{
+  _id: 'Tokyo → Barcelona',
+  shipment_count: 7798,
+  total_co2: 932398.12,
+  average_co2: 119.56887919979482,
+  total_value: 3287937842.76,
+  total_volume: 304616.88,
+  co2_per_usd: 0.00028358143145957866,
+  co2_per_m3: 3.0608878930149896
+}
+{
+  _id: 'Melbourne → Dubai',
+  shipment_count: 7838,
+  total_co2: 933755.23,
+  average_co2: 119.1318231691758,
+  total_value: 3302538775.9,
+  total_volume: 307165.36,
+  co2_per_usd: 0.0002827386121289477,
+  co2_per_m3: 3.0399105875740675
+}
+{
+  _id: 'Antwerp → Rotterdam',
+  shipment_count: 7877,
+  total_co2: 954013.18,
+  average_co2: 121.11377174051036,
+  total_value: 3476988960.12,
+  total_volume: 314241.96,
+  co2_per_usd: 0.00027437912255179396,
+  co2_per_m3: 3.0359191369605765
+}

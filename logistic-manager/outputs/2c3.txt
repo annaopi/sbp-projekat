@@ -1,0 +1,80 @@
+{
+  _id: 'Chemicals',
+  shipment_count: 41974,
+  average_initial_risk: 0.15786029923285844,
+  average_final_risk: 0.2441674322199457,
+  average_risk_growth: 78.83561937316227,
+  average_cumulative_delta: 0.08630713298708724
+}
+{
+  _id: 'Pharmaceuticals',
+  shipment_count: 41939,
+  average_initial_risk: 0.15893492453325067,
+  average_final_risk: 0.24553538472543457,
+  average_risk_growth: 78.89994846898851,
+  average_cumulative_delta: 0.08660046019218388
+}
+{
+  _id: 'Automotive',
+  shipment_count: 41880,
+  average_initial_risk: 0.15915034145176696,
+  average_final_risk: 0.24604648758357212,
+  average_risk_growth: 78.79320773093528,
+  average_cumulative_delta: 0.08689614613180516
+}
+{
+  _id: 'Consumer_Goods',
+  shipment_count: 41828,
+  average_initial_risk: 0.1585326551592235,
+  average_final_risk: 0.245177727837812,
+  average_risk_growth: 79.28788622792518,
+  average_cumulative_delta: 0.0866450726785885
+}
+{
+  _id: 'Food_Beverage',
+  shipment_count: 41752,
+  average_initial_risk: 0.15872814715462732,
+  average_final_risk: 0.24537228396244493,
+  average_risk_growth: 78.53431304713641,
+  average_cumulative_delta: 0.08664413680781759
+}
+{
+  _id: 'Electronics',
+  shipment_count: 41663,
+  average_initial_risk: 0.15951007608669562,
+  average_final_risk: 0.24595976525934285,
+  average_risk_growth: 77.8702202999419,
+  average_cumulative_delta: 0.0864496891726472
+}
+{
+  _id: 'Textiles',
+  shipment_count: 41607,
+  average_initial_risk: 0.15806467181003198,
+  average_final_risk: 0.24403969524358882,
+  average_risk_growth: 77.95880899032016,
+  average_cumulative_delta: 0.08597502343355685
+}
+{
+  _id: 'Machinery',
+  shipment_count: 41557,
+  average_initial_risk: 0.15842696296652792,
+  average_final_risk: 0.2447486632817576,
+  average_risk_growth: 78.6270409920125,
+  average_cumulative_delta: 0.08632170031522969
+}
+{
+  _id: 'Perishables',
+  shipment_count: 41447,
+  average_initial_risk: 0.15865318599657394,
+  average_final_risk: 0.244780428016503,
+  average_risk_growth: 77.43474674134622,
+  average_cumulative_delta: 0.08612724201992907
+}
+{
+  _id: 'Perishables',
+  shipment_count: 41447,
+  average_initial_risk: 0.15865318599657394,
+  average_final_risk: 0.244780428016503,
+  average_risk_growth: 77.43474674134622,
+  average_cumulative_delta: 0.08612724201992907
+}

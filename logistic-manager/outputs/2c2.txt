@@ -1,0 +1,32 @@
+{
+  _id: 'sea',
+  shipment_count: 241675,
+  average_initial_risk: 0.1587262761973725,
+  average_final_risk: 0.24511153284369505,
+  average_risk_growth: 78.00710067403696,
+  average_cumulative_delta: 0.08638525664632254
+}
+{
+  _id: 'air',
+  shipment_count: 74930,
+  average_initial_risk: 0.15849840651274522,
+  average_final_risk: 0.24505647804617645,
+  average_risk_growth: 78.85503572250472,
+  average_cumulative_delta: 0.0865580715334312
+}
+{
+  _id: 'rail',
+  shipment_count: 58713,
+  average_initial_risk: 0.1590396641288982,
+  average_final_risk: 0.24558593326861172,
+  average_risk_growth: 78.5257722324423,
+  average_cumulative_delta: 0.08654626913971351
+}
+{
+  _id: 'rail',
+  shipment_count: 58713,
+  average_initial_risk: 0.1590396641288982,
+  average_final_risk: 0.24558593326861172,
+  average_risk_growth: 78.5257722324423,
+  average_cumulative_delta: 0.08654626913971351
+}

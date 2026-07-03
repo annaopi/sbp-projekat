@@ -1,0 +1,80 @@
+{
+  _id: 'rfid',
+  total_events: 624336,
+  anomaly_events: 66863,
+  average_shipment_delay: 5.51669084546012,
+  average_shipment_risk: 0.2852316587649373,
+  average_risk_delta: -0.00007619161569178769,
+  average_delay_added: 1.6668501263778175,
+  anomaly_rate: 10.709457727890111
+}
+{
+  _id: 'camera',
+  total_events: 625837,
+  anomaly_events: 67018,
+  average_shipment_delay: 5.550222328329702,
+  average_shipment_risk: 0.2857196723268376,
+  average_risk_delta: 0.00003344176191470948,
+  average_delay_added: 1.708402220299024,
+  anomaly_rate: 10.708539124404599
+}
+{
+  _id: 'gps',
+  total_events: 623589,
+  anomaly_events: 66754,
+  average_shipment_delay: 5.440027563891302,
+  average_shipment_risk: 0.2864850301105552,
+  average_risk_delta: 0.00004835515474728108,
+  average_delay_added: 1.6873430805644605,
+  anomaly_rate: 10.704807172673027
+}
+{
+  _id: 'iot_humidity',
+  total_events: 626503,
+  anomaly_events: 66974,
+  average_shipment_delay: 5.566748290381343,
+  average_shipment_risk: 0.2851461626899991,
+  average_risk_delta: -0.00006507898587511572,
+  average_delay_added: 1.635024039179383,
+  anomaly_rate: 10.6901323696774
+}
+{
+  _id: 'iot_shock',
+  total_events: 624577,
+  anomaly_events: 66722,
+  average_shipment_delay: 5.500635472557778,
+  average_shipment_risk: 0.2853647732382123,
+  average_risk_delta: -0.00006682353646473427,
+  average_delay_added: 1.7223179760798537,
+  anomaly_rate: 10.682750085257704
+}
+{
+  _id: 'iot_temp',
+  total_events: 625291,
+  anomaly_events: 66534,
+  average_shipment_delay: 5.488520155108667,
+  average_shipment_risk: 0.28543328523762285,
+  average_risk_delta: -0.00039360176751735955,
+  average_delay_added: 1.6983046262061503,
+  anomaly_rate: 10.640485789816262
+}
+{
+  _id: 'manual',
+  total_events: 624440,
+  anomaly_events: 66428,
+  average_shipment_delay: 5.473207081351237,
+  average_shipment_risk: 0.28477256578551213,
+  average_risk_delta: 0.0003264165713253447,
+  average_delay_added: 1.690010236647197,
+  anomaly_rate: 10.638011658445967
+}
+{
+  _id: 'ais',
+  total_events: 625427,
+  anomaly_events: 66330,
+  average_shipment_delay: 5.522674506256596,
+  average_shipment_risk: 0.2858007960199005,
+  average_risk_delta: 0.00020245137946630482,
+  average_delay_added: 1.6640796019900497,
+  anomaly_rate: 10.605554285312275
+}

@@ -1,0 +1,90 @@
+{
+  _id: 'Mundra → Felixstowe',
+  shipment_count: 8156,
+  total_port_wait: 25084,
+  average_port_wait: 3.07552721922511,
+  total_delay: 45641.2,
+  average_delay: 5.596027464443354,
+  contribution_percentage: 54.95911588652358
+}
+{
+  _id: 'Sydney → Mumbai',
+  shipment_count: 7887,
+  total_port_wait: 24661,
+  average_port_wait: 3.1267909217700014,
+  total_delay: 43941.6,
+  average_delay: 5.571395968048687,
+  contribution_percentage: 56.12221676042748
+}
+{
+  _id: 'Tanjung_Pelepas → Los_Angeles',
+  shipment_count: 8083,
+  total_port_wait: 24616.7,
+  average_port_wait: 3.0454905356921937,
+  total_delay: 45677.9,
+  average_delay: 5.651107262155141,
+  contribution_percentage: 53.891925854735
+}
+{
+  _id: 'Felixstowe → Felixstowe',
+  shipment_count: 7930,
+  total_port_wait: 24589.7,
+  average_port_wait: 3.100844892812106,
+  total_delay: 42648.6,
+  average_delay: 5.378133669609079,
+  contribution_percentage: 57.65652330908869
+}
+{
+  _id: 'Mumbai → New_York',
+  shipment_count: 8017,
+  total_port_wait: 24559.3,
+  average_port_wait: 3.0634027691156294,
+  total_delay: 43940.2,
+  average_delay: 5.480878133965323,
+  contribution_percentage: 55.892553971078875
+}
+{
+  _id: 'Chennai → Antwerp',
+  shipment_count: 8065,
+  total_port_wait: 24526.4,
+  average_port_wait: 3.0410911345319285,
+  total_delay: 45022.5,
+  average_delay: 5.582455052696838,
+  contribution_percentage: 54.47587317452385
+}
+{
+  _id: 'Colombo → Miami',
+  shipment_count: 7938,
+  total_port_wait: 24512.1,
+  average_port_wait: 3.0879440665154947,
+  total_delay: 42547.5,
+  average_delay: 5.359977324263038,
+  contribution_percentage: 57.61114049004053
+}
+{
+  _id: 'Singapore → New_York',
+  shipment_count: 7931,
+  total_port_wait: 24484.7,
+  average_port_wait: 3.0872147270205526,
+  total_delay: 43526.5,
+  average_delay: 5.488147774555541,
+  contribution_percentage: 56.25239796445843
+}
+{
+  _id: 'Tokyo → Le_Havre',
+  shipment_count: 7929,
+  total_port_wait: 24464.1,
+  average_port_wait: 3.0853953840332955,
+  total_delay: 42985.8,
+  average_delay: 5.42133938706016,
+  contribution_percentage: 56.91205002582247
+}
+{
+  _id: 'Melbourne → Hamburg',
+  shipment_count: 7975,
+  total_port_wait: 24382.1,
+  average_port_wait: 3.0573166144200625,
+  total_delay: 42968.4,
+  average_delay: 5.387887147335423,
+  contribution_percentage: 56.744258571415266
+}

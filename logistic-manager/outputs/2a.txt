@@ -1,0 +1,110 @@
+{
+  _id: 'SHP-104136221',
+  carrier: 'Evergreen',
+  transport_mode: 'sea',
+  goods_category: 'Machinery',
+  priority_level: 1,
+  initial_risk: 0.0004,
+  cumulative_risk_delta: 0.1149,
+  final_risk: 0.1153,
+  risk_growth_percentage: 28725
+}
+{
+  _id: 'SHP-102281468',
+  carrier: 'Maersk',
+  transport_mode: 'sea',
+  goods_category: 'Consumer_Goods',
+  priority_level: 4,
+  initial_risk: 0.001,
+  cumulative_risk_delta: 0.1953,
+  final_risk: 0.1963,
+  risk_growth_percentage: 19530
+}
+{
+  _id: 'SHP-101471403',
+  carrier: 'DB_Schenker',
+  transport_mode: 'sea',
+  goods_category: 'Machinery',
+  priority_level: 1,
+  initial_risk: 0.0006,
+  cumulative_risk_delta: 0.1048,
+  final_risk: 0.10540000000000001,
+  risk_growth_percentage: 17466.666666666668
+}
+{
+  _id: 'SHP-102979729',
+  carrier: 'ZIM',
+  transport_mode: 'rail',
+  goods_category: 'Food_Beverage',
+  priority_level: 1,
+  initial_risk: 0.001,
+  cumulative_risk_delta: 0.1489,
+  final_risk: 0.1499,
+  risk_growth_percentage: 14890
+}
+{
+  _id: 'SHP-102990317',
+  carrier: 'Evergreen',
+  transport_mode: 'rail',
+  goods_category: 'Textiles',
+  priority_level: 3,
+  initial_risk: 0.001,
+  cumulative_risk_delta: 0.1285,
+  final_risk: 0.1295,
+  risk_growth_percentage: 12850
+}
+{
+  _id: 'SHP-102567483',
+  carrier: 'HMM',
+  transport_mode: 'rail',
+  goods_category: 'Automotive',
+  priority_level: 2,
+  initial_risk: 0.0005,
+  cumulative_risk_delta: 0.062099999999999995,
+  final_risk: 0.06259999999999999,
+  risk_growth_percentage: 12419.999999999998
+}
+{
+  _id: 'SHP-100652035',
+  carrier: 'DB_Schenker',
+  transport_mode: 'sea',
+  goods_category: 'Consumer_Goods',
+  priority_level: 4,
+  initial_risk: 0.0006,
+  cumulative_risk_delta: 0.0658,
+  final_risk: 0.0664,
+  risk_growth_percentage: 10966.666666666668
+}
+{
+  _id: 'SHP-103597935',
+  carrier: 'Maersk',
+  transport_mode: 'sea',
+  goods_category: 'Electronics',
+  priority_level: 2,
+  initial_risk: 0.0014,
+  cumulative_risk_delta: 0.15,
+  final_risk: 0.1514,
+  risk_growth_percentage: 10714.285714285714
+}
+{
+  _id: 'SHP-101127554',
+  carrier: 'Kuehne_Nagel',
+  transport_mode: 'air',
+  goods_category: 'Automotive',
+  priority_level: 2,
+  initial_risk: 0.001,
+  cumulative_risk_delta: 0.1021,
+  final_risk: 0.1031,
+  risk_growth_percentage: 10210
+}
+{
+  _id: 'SHP-103533501',
+  carrier: 'UPS',
+  transport_mode: 'sea',
+  goods_category: 'Electronics',
+  priority_level: 3,
+  initial_risk: 0.0008,
+  cumulative_risk_delta: 0.0781,
+  final_risk: 0.0789,
+  risk_growth_percentage: 9762.5
+}

@@ -1,0 +1,130 @@
+{
+  _id: {
+    carrier: 'CMA_CGM',
+    transport_mode: 'air',
+    event_type: 'reroute'
+  },
+  occurrences: 378,
+  average_total_delay: 31.220634920634918,
+  average_delay_added: 8.612169312169312,
+  average_port_wait: 0,
+  average_risk_delta: -0.000785978835978836,
+  shipment_count: 376
+}
+{
+  _id: {
+    carrier: 'CMA_CGM',
+    transport_mode: 'air',
+    event_type: 'mechanical_stop'
+  },
+  occurrences: 393,
+  average_total_delay: 31.512722646310433,
+  average_delay_added: 8.412722646310431,
+  average_port_wait: 0,
+  average_risk_delta: 0.0020776081424936387,
+  shipment_count: 384
+}
+{
+  _id: {
+    carrier: 'CMA_CGM',
+    transport_mode: 'air',
+    event_type: 'congestion_hold'
+  },
+  occurrences: 369,
+  average_total_delay: 32.03062330623306,
+  average_delay_added: 8.232249322493224,
+  average_port_wait: 0,
+  average_risk_delta: -0.00047994579945799477,
+  shipment_count: 366
+}
+{
+  _id: {
+    carrier: 'CMA_CGM',
+    transport_mode: 'air',
+    event_type: 'weather_hold'
+  },
+  occurrences: 596,
+  average_total_delay: 32.11963087248322,
+  average_delay_added: 8.078187919463089,
+  average_port_wait: 0,
+  average_risk_delta: 0.0002697986577181208,
+  shipment_count: 582
+}
+{
+  _id: {
+    carrier: 'CMA_CGM',
+    transport_mode: 'air',
+    event_type: 'temperature_alert'
+  },
+  occurrences: 282,
+  average_total_delay: 32.31028368794326,
+  average_delay_added: 7.785106382978724,
+  average_port_wait: 0,
+  average_risk_delta: 0.004866666666666667,
+  shipment_count: 281
+}
+{
+  _id: {
+    carrier: 'CMA_CGM',
+    transport_mode: 'air',
+    event_type: 'arrival'
+  },
+  occurrences: 1021,
+  average_total_delay: 32.141234084231144,
+  average_delay_added: 0,
+  average_port_wait: 0,
+  average_risk_delta: -0.0003461312438785504,
+  shipment_count: 975
+}
+{
+  _id: {
+    carrier: 'CMA_CGM',
+    transport_mode: 'air',
+    event_type: 'departure'
+  },
+  occurrences: 969,
+  average_total_delay: 32.45025799793601,
+  average_delay_added: 0,
+  average_port_wait: 0,
+  average_risk_delta: -0.0014126934984520123,
+  shipment_count: 926
+}
+{
+  _id: {
+    carrier: 'CMA_CGM',
+    transport_mode: 'air',
+    event_type: 'port_entry'
+  },
+  occurrences: 865,
+  average_total_delay: 30.946589595375723,
+  average_delay_added: 0,
+  average_port_wait: 6.305202312138729,
+  average_risk_delta: 0.0024455491329479773,
+  shipment_count: 828
+}
+{
+  _id: {
+    carrier: 'CMA_CGM',
+    transport_mode: 'air',
+    event_type: 'customs_check'
+  },
+  occurrences: 787,
+  average_total_delay: 30.188818297331636,
+  average_delay_added: 0,
+  average_port_wait: 6.31715374841169,
+  average_risk_delta: 0.003210546378653113,
+  shipment_count: 758
+}
+{
+  _id: {
+    carrier: 'CMA_CGM',
+    transport_mode: 'air',
+    event_type: 'transshipment'
+  },
+  occurrences: 755,
+  average_total_delay: 31.597483443708608,
+  average_delay_added: 0,
+  average_port_wait: 0,
+  average_risk_delta: -0.0004909933774834437,
+  shipment_count: 737
+}

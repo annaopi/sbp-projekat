@@ -1,0 +1,130 @@
+{
+  _id: {
+    carrier: 'ZIM',
+    transport_mode: 'sea',
+    goods_category: 'Textiles',
+    priority_level: 4
+  },
+  shipment_count: 453,
+  average_initial_risk: 0.16719492273730685,
+  average_final_risk: 0.2562600441501104,
+  average_risk_growth: 73.26940497364426,
+  average_cumulative_delta: 0.08906512141280352
+}
+{
+  _id: {
+    carrier: 'Yang_Ming',
+    transport_mode: 'sea',
+    goods_category: 'Consumer_Goods',
+    priority_level: 3
+  },
+  shipment_count: 452,
+  average_initial_risk: 0.16560132743362832,
+  average_final_risk: 0.25313230088495575,
+  average_risk_growth: 89.99399240458796,
+  average_cumulative_delta: 0.08753097345132743
+}
+{
+  _id: {
+    carrier: 'Yang_Ming',
+    transport_mode: 'sea',
+    goods_category: 'Machinery',
+    priority_level: 1
+  },
+  shipment_count: 451,
+  average_initial_risk: 0.1538620842572062,
+  average_final_risk: 0.23766141906873614,
+  average_risk_growth: 81.49118833190288,
+  average_cumulative_delta: 0.08379933481152994
+}
+{
+  _id: {
+    carrier: 'Yang_Ming',
+    transport_mode: 'sea',
+    goods_category: 'Machinery',
+    priority_level: 1
+  },
+  shipment_count: 451,
+  average_initial_risk: 0.1538620842572062,
+  average_final_risk: 0.23766141906873614,
+  average_risk_growth: 81.49118833190288,
+  average_cumulative_delta: 0.08379933481152994
+}
+{
+  _id: {
+    carrier: 'HMM',
+    transport_mode: 'sea',
+    goods_category: 'Raw_Materials',
+    priority_level: 4
+  },
+  shipment_count: 449,
+  average_initial_risk: 0.15840734966592426,
+  average_final_risk: 0.24364743875278397,
+  average_risk_growth: 71.67841262931917,
+  average_cumulative_delta: 0.08524008908685969
+}
+{
+  _id: {
+    carrier: 'Yang_Ming',
+    transport_mode: 'sea',
+    goods_category: 'Electronics',
+    priority_level: 4
+  },
+  shipment_count: 448,
+  average_initial_risk: 0.15498973214285713,
+  average_final_risk: 0.2402060267857143,
+  average_risk_growth: 82.80468182804911,
+  average_cumulative_delta: 0.08521629464285715
+}
+{
+  _id: {
+    carrier: 'UPS',
+    transport_mode: 'sea',
+    goods_category: 'Pharmaceuticals',
+    priority_level: 1
+  },
+  shipment_count: 448,
+  average_initial_risk: 0.15490870535714288,
+  average_final_risk: 0.23962700892857144,
+  average_risk_growth: 76.31287780055438,
+  average_cumulative_delta: 0.08471830357142858
+}
+{
+  _id: {
+    carrier: 'Evergreen',
+    transport_mode: 'sea',
+    goods_category: 'Automotive',
+    priority_level: 2
+  },
+  shipment_count: 446,
+  average_initial_risk: 0.158347533632287,
+  average_final_risk: 0.24421143497757847,
+  average_risk_growth: 76.9188914008247,
+  average_cumulative_delta: 0.08586390134529147
+}
+{
+  _id: {
+    carrier: 'DHL',
+    transport_mode: 'sea',
+    goods_category: 'Textiles',
+    priority_level: 2
+  },
+  shipment_count: 446,
+  average_initial_risk: 0.16086322869955158,
+  average_final_risk: 0.24851569506726456,
+  average_risk_growth: 71.23244007692061,
+  average_cumulative_delta: 0.08765246636771301
+}
+{
+  _id: {
+    carrier: 'COSCO',
+    transport_mode: 'sea',
+    goods_category: 'Food_Beverage',
+    priority_level: 3
+  },
+  shipment_count: 444,
+  average_initial_risk: 0.16215315315315315,
+  average_final_risk: 0.24856734234234235,
+  average_risk_growth: 75.86772518508056,
+  average_cumulative_delta: 0.08641418918918918
+}

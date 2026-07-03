@@ -1,0 +1,110 @@
+{
+  _id: {
+    from: 'customs_check',
+    to: 'customs_check'
+  },
+  occurrences: 893,
+  average_total_delay: 42.01410974244121,
+  average_delay_added: 0,
+  average_port_wait: 6.126875699888018,
+  average_risk_delta: -0.0008817469204927212
+}
+{
+  _id: {
+    from: 'customs_check',
+    to: 'inspection'
+  },
+  occurrences: 776,
+  average_total_delay: 41.96211340206185,
+  average_delay_added: 0,
+  average_port_wait: 6.372680412371134,
+  average_risk_delta: 0.003509664948453608
+}
+{
+  _id: {
+    from: 'inspection',
+    to: 'customs_check'
+  },
+  occurrences: 773,
+  average_total_delay: 41.7875808538163,
+  average_delay_added: 0,
+  average_port_wait: 5.779430789133247,
+  average_risk_delta: -0.0006829236739974127
+}
+{
+  _id: {
+    from: 'inspection',
+    to: 'inspection'
+  },
+  occurrences: 672,
+  average_total_delay: 42.25758928571428,
+  average_delay_added: 0,
+  average_port_wait: 6.2023809523809526,
+  average_risk_delta: -0.002887797619047619
+}
+{
+  _id: {
+    from: 'weather_hold',
+    to: 'customs_check'
+  },
+  occurrences: 657,
+  average_total_delay: 40.31780821917808,
+  average_delay_added: 0,
+  average_port_wait: 6.117503805175038,
+  average_risk_delta: -0.0020948249619482497
+}
+{
+  _id: {
+    from: 'customs_check',
+    to: 'weather_hold'
+  },
+  occurrences: 621,
+  average_total_delay: 40.96924315619968,
+  average_delay_added: 8.286312399355879,
+  average_port_wait: 0,
+  average_risk_delta: 0.0016262479871175523
+}
+{
+  _id: {
+    from: 'customs_check',
+    to: 'delayed_notification'
+  },
+  occurrences: 603,
+  average_total_delay: 43.20182421227197,
+  average_delay_added: 0,
+  average_port_wait: 0,
+  average_risk_delta: -0.0013014925373134327
+}
+{
+  _id: {
+    from: 'weather_hold',
+    to: 'inspection'
+  },
+  occurrences: 599,
+  average_total_delay: 43.10400667779633,
+  average_delay_added: 0,
+  average_port_wait: 5.985809682804675,
+  average_risk_delta: 0.0021186978297161934
+}
+{
+  _id: {
+    from: 'inspection',
+    to: 'weather_hold'
+  },
+  occurrences: 594,
+  average_total_delay: 40.46262626262626,
+  average_delay_added: 6.768518518518518,
+  average_port_wait: 0,
+  average_risk_delta: -0.0023156565656565656
+}
+{
+  _id: {
+    from: 'inspection',
+    to: 'weather_hold'
+  },
+  occurrences: 594,
+  average_total_delay: 40.46262626262626,
+  average_delay_added: 6.768518518518518,
+  average_port_wait: 0,
+  average_risk_delta: -0.0023156565656565656
+}

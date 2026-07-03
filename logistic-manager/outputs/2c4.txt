@@ -1,0 +1,32 @@
+{
+  _id: 1,
+  shipment_count: 104598,
+  average_initial_risk: 0.1584485372569265,
+  average_final_risk: 0.24490330694659557,
+  average_risk_growth: 78.6233471583537,
+  average_cumulative_delta: 0.08645476968966902
+}
+{
+  _id: 3,
+  shipment_count: 104342,
+  average_initial_risk: 0.15879634854612715,
+  average_final_risk: 0.245260052519599,
+  average_risk_growth: 78.56801026419521,
+  average_cumulative_delta: 0.08646370397347185
+}
+{
+  _id: 4,
+  shipment_count: 104299,
+  average_initial_risk: 0.1584692585739077,
+  average_final_risk: 0.24479796834101958,
+  average_risk_growth: 77.40839426654178,
+  average_cumulative_delta: 0.08632870976711186
+}
+{
+  _id: 2,
+  shipment_count: 103814,
+  average_initial_risk: 0.1588883917390718,
+  average_final_risk: 0.2453512512763211,
+  average_risk_growth: 78.66178404814484,
+  average_cumulative_delta: 0.08646285953724932
+}

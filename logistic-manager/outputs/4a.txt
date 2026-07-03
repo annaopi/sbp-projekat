@@ -1,0 +1,80 @@
+{
+  _id: 'SHP-100000003',
+  origin_port: 'Singapore',
+  destination_port: 'Bremen',
+  delay_hours: 0,
+  total_port_wait: 0,
+  route: 'Singapore → Bremen'
+}
+{
+  _id: 'SHP-100000005',
+  origin_port: 'Tokyo',
+  destination_port: 'Valencia',
+  delay_hours: 0,
+  total_port_wait: 0,
+  route: 'Tokyo → Valencia'
+}
+{
+  _id: 'SHP-100000006',
+  origin_port: 'Singapore',
+  destination_port: 'Valencia',
+  delay_hours: 0,
+  total_port_wait: 2.7,
+  route: 'Singapore → Valencia'
+}
+{
+  _id: 'SHP-100000007',
+  origin_port: 'Mundra',
+  destination_port: 'Antwerp',
+  delay_hours: 0,
+  total_port_wait: 6.5,
+  route: 'Mundra → Antwerp'
+}
+{
+  _id: 'SHP-100000008',
+  origin_port: 'Mumbai',
+  destination_port: 'Felixstowe',
+  delay_hours: 0,
+  total_port_wait: 12,
+  route: 'Mumbai → Felixstowe'
+}
+{
+  _id: 'SHP-100000010',
+  origin_port: 'Busan',
+  destination_port: 'Dubai',
+  delay_hours: 7.8,
+  total_port_wait: 7.3,
+  route: 'Busan → Dubai'
+}
+{
+  _id: 'SHP-100000012',
+  origin_port: 'Hamburg',
+  destination_port: 'Valencia',
+  delay_hours: 54,
+  total_port_wait: 0,
+  route: 'Hamburg → Valencia'
+}
+{
+  _id: 'SHP-100000014',
+  origin_port: 'Hamburg',
+  destination_port: 'Le_Havre',
+  delay_hours: 0,
+  total_port_wait: 6.5,
+  route: 'Hamburg → Le_Havre'
+}
+{
+  _id: 'SHP-100000018',
+  origin_port: 'Felixstowe',
+  destination_port: 'Los_Angeles',
+  delay_hours: 5.8,
+  total_port_wait: 0,
+  route: 'Felixstowe → Los_Angeles'
+}
+{
+  _id: 'SHP-100000018',
+  origin_port: 'Felixstowe',
+  destination_port: 'Los_Angeles',
+  delay_hours: 5.8,
+  total_port_wait: 0,
+  route: 'Felixstowe → Los_Angeles'
+}

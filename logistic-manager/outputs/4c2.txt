@@ -1,0 +1,90 @@
+{
+  _id: 'Mumbai → Los_Angeles',
+  shipment_count: 8003,
+  total_port_wait: 24226.6,
+  average_port_wait: 3.027189803823566,
+  total_delay: 40649.8,
+  average_delay: 5.079320254904411,
+  contribution_percentage: 59.59832520701208
+}
+{
+  _id: 'Ningbo → Miami',
+  shipment_count: 7980,
+  total_port_wait: 23377.5,
+  average_port_wait: 2.9295112781954886,
+  total_delay: 39251.5,
+  average_delay: 4.918734335839599,
+  contribution_percentage: 59.5582334433079
+}
+{
+  _id: 'Singapore → Le_Havre',
+  shipment_count: 7891,
+  total_port_wait: 23313.5,
+  average_port_wait: 2.9544417691040428,
+  total_delay: 39986.8,
+  average_delay: 5.067393232796857,
+  contribution_percentage: 58.30298998669561
+}
+{
+  _id: 'Singapore → Piraeus',
+  shipment_count: 7826,
+  total_port_wait: 24158.3,
+  average_port_wait: 3.0869281880909787,
+  total_delay: 41492.6,
+  average_delay: 5.30189113212369,
+  contribution_percentage: 58.22315304415727
+}
+{
+  _id: 'Tokyo → Dubai',
+  shipment_count: 7928,
+  total_port_wait: 23442.4,
+  average_port_wait: 2.9569122098890013,
+  total_delay: 40456.7,
+  average_delay: 5.103014631685166,
+  contribution_percentage: 57.944419589338736
+}
+{
+  _id: 'Felixstowe → Felixstowe',
+  shipment_count: 7930,
+  total_port_wait: 24589.7,
+  average_port_wait: 3.100844892812106,
+  total_delay: 42648.6,
+  average_delay: 5.378133669609079,
+  contribution_percentage: 57.65652330908869
+}
+{
+  _id: 'Mundra → New_York',
+  shipment_count: 7800,
+  total_port_wait: 23798.8,
+  average_port_wait: 3.051128205128205,
+  total_delay: 41279.3,
+  average_delay: 5.2922179487179495,
+  contribution_percentage: 57.65310942772769
+}
+{
+  _id: 'Colombo → Miami',
+  shipment_count: 7938,
+  total_port_wait: 24512.1,
+  average_port_wait: 3.0879440665154947,
+  total_delay: 42547.5,
+  average_delay: 5.359977324263038,
+  contribution_percentage: 57.61114049004053
+}
+{
+  _id: 'Antwerp → Sydney',
+  shipment_count: 7668,
+  total_port_wait: 22388.2,
+  average_port_wait: 2.9196922274387065,
+  total_delay: 39165.8,
+  average_delay: 5.107694314032343,
+  contribution_percentage: 57.16262657726894
+}
+{
+  _id: 'Mundra → Piraeus',
+  shipment_count: 7857,
+  total_port_wait: 23810.1,
+  average_port_wait: 3.030431462390225,
+  total_delay: 41658.3,
+  average_delay: 5.302061855670104,
+  contribution_percentage: 57.155716867947085
+}

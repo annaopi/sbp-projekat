@@ -1,0 +1,120 @@
+{
+  _id: 'ZIM',
+  shipment_count: 28217,
+  average_initial_risk: 0.1590992876634653,
+  average_final_risk: 0.2453373250168338,
+  average_risk_growth: 76.96488284080053,
+  average_cumulative_delta: 0.08623803735336855
+}
+{
+  _id: 'ONE',
+  shipment_count: 28121,
+  average_initial_risk: 0.15850083923046834,
+  average_final_risk: 0.24492141815724902,
+  average_risk_growth: 77.68872679443079,
+  average_cumulative_delta: 0.08642057892678069
+}
+{
+  _id: 'Hapag-Lloyd',
+  shipment_count: 27979,
+  average_initial_risk: 0.15922857142857144,
+  average_final_risk: 0.24571068658636835,
+  average_risk_growth: 75.76804411689211,
+  average_cumulative_delta: 0.08648211515779693
+}
+{
+  _id: 'UPS',
+  shipment_count: 27916,
+  average_initial_risk: 0.15866460452786932,
+  average_final_risk: 0.24530602521851266,
+  average_risk_growth: 79.33563737146615,
+  average_cumulative_delta: 0.08664142069064336
+}
+{
+  _id: 'Evergreen',
+  shipment_count: 27856,
+  average_initial_risk: 0.15847332711085582,
+  average_final_risk: 0.24490655514072374,
+  average_risk_growth: 80.31943215904765,
+  average_cumulative_delta: 0.0864332280298679
+}
+{
+  _id: 'Yang_Ming',
+  shipment_count: 27837,
+  average_initial_risk: 0.1586970255415454,
+  average_final_risk: 0.2451031899989223,
+  average_risk_growth: 78.63370936370141,
+  average_cumulative_delta: 0.08640616445737687
+}
+{
+  _id: 'Maersk',
+  shipment_count: 27791,
+  average_initial_risk: 0.15817579072361557,
+  average_final_risk: 0.24421432478140404,
+  average_risk_growth: 78.42312754748845,
+  average_cumulative_delta: 0.0860385340577885
+}
+{
+  _id: 'MSC',
+  shipment_count: 27713,
+  average_initial_risk: 0.15947366578861905,
+  average_final_risk: 0.24579325226428028,
+  average_risk_growth: 78.06871632799594,
+  average_cumulative_delta: 0.08631958647566124
+}
+{
+  _id: 'DB_Schenker',
+  shipment_count: 27704,
+  average_initial_risk: 0.15869352079122148,
+  average_final_risk: 0.24522746173837714,
+  average_risk_growth: 79.88028906441693,
+  average_cumulative_delta: 0.08653394094715565
+}
+{
+  _id: 'FedEx',
+  shipment_count: 27686,
+  average_initial_risk: 0.15825428375352163,
+  average_final_risk: 0.24452674275807268,
+  average_risk_growth: 77.29346578977015,
+  average_cumulative_delta: 0.08627245900455104
+}
+{
+  _id: 'COSCO',
+  shipment_count: 27683,
+  average_initial_risk: 0.15863841346674853,
+  average_final_risk: 0.24519277534949246,
+  average_risk_growth: 77.57616448989137,
+  average_cumulative_delta: 0.08655436188274393
+}
+{
+  _id: 'CMA_CGM',
+  shipment_count: 27675,
+  average_initial_risk: 0.1577998482384824,
+  average_final_risk: 0.2442496440831075,
+  average_risk_growth: 78.59244103447911,
+  average_cumulative_delta: 0.0864497958446251
+}
+{
+  _id: 'HMM',
+  shipment_count: 27661,
+  average_initial_risk: 0.15885793716785365,
+  average_final_risk: 0.24551866526879,
+  average_risk_growth: 79.6639500951182,
+  average_cumulative_delta: 0.08666072810093635
+}
+{
+  _id: 'DHL',
+  shipment_count: 27661,
+  average_initial_risk: 0.1583789595459311,
+  average_final_risk: 0.2450807056867069,
+  average_risk_growth: 78.70851162544648,
+  average_cumulative_delta: 0.08670174614077582
+}
+{
+  _id: 'Kuehne_Nagel',
+  shipment_count: 27553,
+  average_initial_risk: 0.1588069901644104,
+  average_final_risk: 0.24506935360940735,
+  average_risk_growth: 77.84967935692922,
+  average_cumulative_delta: 0.08626236344499692
+}

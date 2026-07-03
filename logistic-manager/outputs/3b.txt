@@ -1,0 +1,100 @@
+{
+  _id: 'Sydney → Savannah',
+  shipment_count: 7983,
+  total_co2: 964424.27,
+  average_co2: 120.80975447826631,
+  total_value: 2849218616.75,
+  total_volume: 331470.23,
+  co2_per_usd: 0.00033848728361184294,
+  co2_per_m3: 2.909535103650183
+}
+{
+  _id: 'Jebel_Ali → Dubai',
+  shipment_count: 7846,
+  total_co2: 951167.04,
+  average_co2: 121.22954881468264,
+  total_value: 2948734184,
+  total_volume: 335580.94,
+  co2_per_usd: 0.00032256791580641167,
+  co2_per_m3: 2.834389342851236
+}
+{
+  _id: 'Tokyo → Piraeus',
+  shipment_count: 7887,
+  total_co2: 947967.91,
+  average_co2: 120.1937251172816,
+  total_value: 2944946470.9,
+  total_volume: 328419.98,
+  co2_per_usd: 0.00032189648245466856,
+  co2_per_m3: 2.88645017882286
+}
+{
+  _id: 'Mundra → Dubai',
+  shipment_count: 7923,
+  total_co2: 956398.18,
+  average_co2: 120.71162186040642,
+  total_value: 2979986704.37,
+  total_volume: 333091.36,
+  co2_per_usd: 0.00032094041849162967,
+  co2_per_m3: 2.8712788587491436
+}
+{
+  _id: 'Tokyo → Le_Havre',
+  shipment_count: 7929,
+  total_co2: 964741.45,
+  average_co2: 121.67252490856349,
+  total_value: 3012523544.15,
+  total_volume: 333827.43,
+  co2_per_usd: 0.00032024362162195384,
+  co2_per_m3: 2.8899406199185007
+}
+{
+  _id: 'Mumbai → Singapore',
+  shipment_count: 8057,
+  total_co2: 970500.51,
+  average_co2: 120.45432667245873,
+  total_value: 3041938723.1,
+  total_volume: 344032.96,
+  co2_per_usd: 0.0003190401248487266,
+  co2_per_m3: 2.8209521262148836
+}
+{
+  _id: 'Melbourne → Genoa',
+  shipment_count: 8013,
+  total_co2: 948925.18,
+  average_co2: 118.42320978410085,
+  total_value: 2985590494.17,
+  total_volume: 330172.6,
+  co2_per_usd: 0.0003178350084691715,
+  co2_per_m3: 2.874027644934801
+}
+{
+  _id: 'Singapore → Houston',
+  shipment_count: 8030,
+  total_co2: 952929.36,
+  average_co2: 118.67115317559153,
+  total_value: 3002943005.6,
+  total_volume: 363490.2,
+  co2_per_usd: 0.000317331816895273,
+  co2_per_m3: 2.621609495936892
+}
+{
+  _id: 'Guangzhou → New_York',
+  shipment_count: 7883,
+  total_co2: 937001.32,
+  average_co2: 118.86354433591272,
+  total_value: 2967204634.41,
+  total_volume: 329152.42,
+  co2_per_usd: 0.000315785877769874,
+  co2_per_m3: 2.8467094970773723
+}
+{
+  _id: 'Guangzhou → New_York',
+  shipment_count: 7883,
+  total_co2: 937001.32,
+  average_co2: 118.86354433591272,
+  total_value: 2967204634.41,
+  total_volume: 329152.42,
+  co2_per_usd: 0.000315785877769874,
+  co2_per_m3: 2.8467094970773723
+}

@@ -1,0 +1,48 @@
+{
+  _id: 'rfid',
+  total_events: 624336,
+  anomaly_events: 66863,
+  anomaly_rate: 10.709457727890111
+}
+{
+  _id: 'camera',
+  total_events: 625837,
+  anomaly_events: 67018,
+  anomaly_rate: 10.708539124404599
+}
+{
+  _id: 'gps',
+  total_events: 623589,
+  anomaly_events: 66754,
+  anomaly_rate: 10.704807172673027
+}
+{
+  _id: 'iot_humidity',
+  total_events: 626503,
+  anomaly_events: 66974,
+  anomaly_rate: 10.6901323696774
+}
+{
+  _id: 'iot_shock',
+  total_events: 624577,
+  anomaly_events: 66722,
+  anomaly_rate: 10.682750085257704
+}
+{
+  _id: 'iot_temp',
+  total_events: 625291,
+  anomaly_events: 66534,
+  anomaly_rate: 10.640485789816262
+}
+{
+  _id: 'manual',
+  total_events: 624440,
+  anomaly_events: 66428,
+  anomaly_rate: 10.638011658445967
+}
+{
+  _id: 'ais',
+  total_events: 625427,
+  anomaly_events: 66330,
+  anomaly_rate: 10.605554285312275
+}

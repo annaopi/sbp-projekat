@@ -1,0 +1,38 @@
+{
+  _id: {
+    carrier: 'Yang_Ming',
+    transport_mode: 'sea'
+  },
+  delayed_shipments: 1,
+  average_delay_hours: 54,
+  average_delay_ratio: 0.509915014164306,
+  average_delay_added: 3.3,
+  average_port_wait: 0,
+  average_risk_delta: 0.1624,
+  event_sequences: [
+    [
+      'departure',
+      'mechanical_stop',
+      'transshipment'
+    ]
+  ]
+}
+{
+  _id: {
+    carrier: 'Yang_Ming',
+    transport_mode: 'sea'
+  },
+  delayed_shipments: 1,
+  average_delay_hours: 54,
+  average_delay_ratio: 0.509915014164306,
+  average_delay_added: 3.3,
+  average_port_wait: 0,
+  average_risk_delta: 0.1624,
+  event_sequences: [
+    [
+      'departure',
+      'mechanical_stop',
+      'transshipment'
+    ]
+  ]
+}
