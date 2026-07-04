@@ -1,0 +1,41 @@
+[
+  {
+    $match: {
+      anomaly_flag: true
+    }
+  },
+  {
+    $lookup: {
+      from: "shipments",
+      localField: "shipment_id",
+      foreignField: "shipment_id",
+      as: "shipment"
+    }
+  },
+  {
+    $unwind: "$shipment"
+  },
+  {
+    $group: {
+      _id: {
+        carrier: "$shipment.carrier",
+        goods: "$shipment.goods_category",
+        transport: "$shipment.transport_mode"
+      },
+      avgWeight: {
+        $avg: "$shipment.weight_kg"
+      },
+      avgContainers: {
+        $avg: "$shipment.num_containers"
+      },
+      riskyEvents: {
+        $sum: 1
+      }
+    }
+  },
+  {
+    $sort: {
+      riskyEvents: -1
+    }
+  }
+]

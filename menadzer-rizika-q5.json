@@ -1,0 +1,45 @@
+[
+  {
+    $lookup: {
+      from: "shipments",
+      localField: "shipment_id",
+      foreignField: "shipment_id",
+      as: "shipment"
+    }
+  },
+  {
+    $unwind: "$shipment"
+  },
+  {
+    $match: {
+      "shipment.weather_severity": {
+        $gte: 0.5
+      },
+      "shipment.port_congestion": {
+        $gte: 0.5
+      }
+    }
+  },
+  {
+    $group: {
+      _id: "$shipment.carrier",
+      avgRisk: {
+        $avg: "$risk_score_delta"
+      },
+      anomalies: {
+        $sum: {
+          $cond: [
+            "$anomaly_flag",
+            1,
+            0
+          ]
+        }
+      }
+    }
+  },
+  {
+    $sort: {
+      avgRisk: 1
+    }
+  }
+]

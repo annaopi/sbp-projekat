@@ -1,0 +1,45 @@
+[
+  {
+    $match: {
+      risk_score_delta: { $gt: 0 }
+    }
+  },
+  {
+    $project: {
+      shipment_id: 1,
+      risk_score_delta: 1
+    }
+  },
+  {
+    $lookup: {
+      from: "shipments",
+      localField: "shipment_id",
+      foreignField: "shipment_id",
+      as: "shipment"
+    }
+  },
+  {
+    $unwind: "$shipment"
+  },
+  {
+    $group: {
+      _id: {
+        carrier: "$shipment.carrier",
+        origin: "$shipment.origin_port",
+        destination: "$shipment.destination_port",
+        goods: "$shipment.goods_category"
+      },
+      avgRiskIncrease: {
+        $avg: "$risk_score_delta"
+      },
+      brojDogadjaja: {
+        $sum: 1
+      }
+    }
+  },
+  {
+    $sort: {
+      avgRiskIncrease: -1
+    }
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    $match: {
+      $or: [
+        {
+          anomaly_flag: true
+        },
+        {
+          alert_sent: true
+        }
+      ]
+    }
+  },
+  {
+    $lookup: {
+      from: "shipments",
+      localField: "shipment_id",
+      foreignField: "shipment_id",
+      as: "shipment"
+    }
+  },
+  {
+    $unwind: "$shipment"
+  },
+  {
+    $group: {
+      _id: {
+        port: "$location_name",
+        goods: "$shipment.goods_category"
+      },
+      avgRisk: {
+        $avg: "$risk_score_delta"
+      },
+      anomalies: {
+        $sum: {
+          $cond: [
+            "$anomaly_flag",
+            1,
+            0
+          ]
+        }
+      },
+      alerts: {
+        $sum: {
+          $cond: [
+            "$alert_sent",
+            1,
+            0
+          ]
+        }
+      }
+    }
+  },
+  {
+    $sort: {
+      avgRisk: -1
+    }
+  }
+]
